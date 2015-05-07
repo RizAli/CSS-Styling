@@ -1,4 +1,4 @@
- # CSS Styling
+CSS allows you to seperate content and styling
 
 Resources:
 
@@ -13,7 +13,6 @@ http://www.w3.org/TR/css3-color/
 
 for up-to-date browser support
 http://caniuse.com/
-
 
 Methods of applying css
 --------------------------
@@ -90,3 +89,15 @@ note: import-styles.css file has been created and saved in the css folder.
 or completely remove the style tag and add import statement at the top of css file.
 -----------------------------------------------------------------------------------
 @import "import-styles.css";
+
+
+
+
+
+
+
+
+
+
+
+
