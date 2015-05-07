@@ -108,6 +108,7 @@ Declaration is defined in curley braces and is consist of property name and a va
 selector {
   property: value;
 }
+```
 
 Defining Universal Selectors
 ----------------------------
@@ -126,7 +127,6 @@ Defining Element Selectors
 ---------------------------
 
 ```
-
 /* defining element selector*/
 /* Any html tag can be used as selectors in css */
 p {
