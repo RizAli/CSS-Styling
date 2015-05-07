@@ -96,3 +96,21 @@ note: import-styles.css file has been created and saved in the css folder.
 or completely remove the style tag and add import statement at the top of css file.
 -----------------------------------------------------------------------------------
 @import "import-styles.css";
+
+
+CSS Rules or Rules Set
+----------------------
+it is made of two things Selector and a declaration block
+
+Declaration is defined in curley braces and is consist of property name and a value
+
+selector {
+  property: value;
+}
+
+
+
+
+
+
+
