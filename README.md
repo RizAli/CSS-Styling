@@ -1,7 +1,9 @@
- # CSS Styling
+CSS Styling
+------------
 
 Resources:
 
+```
 Mozilla Developer Network
 https://developer.mozilla.org/en-US/
 
@@ -13,7 +15,7 @@ http://www.w3.org/TR/css3-color/
 
 for up-to-date browser support
 http://caniuse.com/
-
+```
 
 Methods of applying css
 --------------------------
