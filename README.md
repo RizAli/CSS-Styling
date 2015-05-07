@@ -20,21 +20,25 @@ Methods of applying css
 author styles
 Three methods to add author styles to a page
 
-inline styles
+Inline styles
 -------------
 good for mocking and debugging only
+
+```
 e.g <body style= "background-color: orange;">
+```
 
 we write directly inside an elemet tag using style attribute.
 body element style attribute
 
 
 
-internal styles
+Internal styles
 ------------------
 sometimes used just for feature testing but not for big websites because we will endup duplicating lots of styling on several pages, which is not a good practice. it can make maintence and development fairly difficult.
 
 a tag inside html file such as
+```
  <title>Lake Tahoe</title>
     <style>
     p {
@@ -57,7 +61,7 @@ a tag inside html file such as
 
     </style>
 
-
+```
 
 External stylesheets
 ---------------------
@@ -76,17 +80,17 @@ another method of using external stylesheets
 
 one way we can import file in our html document.
 
-after title adn link add the style tag in your html file........
+after title and link add the style tag in your html file........
 ----------------------------------------------------------------
 note: import-styles.css file has been created and saved in the css folder.
 
-
+```
 <title> Lake Tahoe</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
       @import "import-styles.css";
   </style>
-
+```
 or completely remove the style tag and add import statement at the top of css file.
 -----------------------------------------------------------------------------------
 @import "import-styles.css";
