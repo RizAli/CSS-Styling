@@ -104,10 +104,41 @@ it is made of two things Selector and a declaration block
 
 Declaration is defined in curley braces and is consist of property name and a value
 
+```
 selector {
   property: value;
 }
 
+Defining Universal Selectors
+----------------------------
+
+```
+/* defining Universal selector*/
+
+* {
+  margin: 0;
+  padding: 0;
+  color: green;
+}
+
+```
+Defining Element Selectors
+---------------------------
+
+```
+
+/* defining element selector*/
+/* Any html tag can be used as selectors in css */
+p {
+  color: white;
+  background-color: lightblue;
+}
+
+header {
+  background-color: orange;
+}
+
+```
 
 
 
