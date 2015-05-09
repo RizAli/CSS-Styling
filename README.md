@@ -178,7 +178,6 @@ css file
 
 in html file instead
 
-```
 <div class='primary-content'>
 ```
 
