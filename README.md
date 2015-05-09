@@ -234,6 +234,35 @@ selector:pseudo-class {
   property: value;
 }
 
+example:
+
+a:hover {
+  color: forestgreen;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+a:focus{
+  color: white;
+  background-color: orange;
+}
+
+
+
 ```
 
 
