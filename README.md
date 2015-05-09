@@ -140,6 +140,51 @@ header {
 
 ```
 
+Defining ID Selector:
+---------------------
+
+To declare the id symbole we will use "#" key. ID name could be anything but it's important and good practice to give meaningful names to the id's.
+'An element can only have one ID and a page can have only one element with the same id name'
+
+
+ID's also have browser's functionality they can be used as 'fragment identifiers' for creating landmarks and anchors on pages.
+
+```
+'#primary-content {
+  border: 3px solid red;
+}'
+
+and in html file
+<div ='primary-content'>
+
+```
+
+Defining Class Selector:
+-----------------------
+ID's are unique and are used to identify one element on the page whereas Class can be used to classify and targe more than one element on the page.
+In other words multiple elements can share the same class. This ability of classes makes it more flexible than ID's.
+
+An important point to note that ID carry more weight then class, it can overwrite the styles defined because the ID are more specific to the element.
+hence it is important not to share the same properties between class and ID's.
+
+to define class selector instead '#'' we use '.' for example
+
+```
+css file
+
+.primary-content {
+  border: 3px solid red;
+}
+
+in html file instead
+
+```
+<div class='primary-content'>
+```
+
+
+
+
 
 
 

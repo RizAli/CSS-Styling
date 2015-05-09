@@ -4,10 +4,9 @@ body {
   margin: 0px;
 }
 
-header {
+.main-header {
   background-color: orange;
 }
-
 
 h1 {
   font-size: 90px;
@@ -21,4 +20,20 @@ h2 {
 h3 {
   font-size: 20px;
   color: #48525c;
+  font
+}
+
+.primary-content {
+  text-align: center;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey;
+
+}
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px orange;
 }
