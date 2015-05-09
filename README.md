@@ -181,11 +181,47 @@ in html file instead
 <div class='primary-content'>
 ```
 
-
 Descendent Selectors
 ---------------------
+CSS allows us target elements based on their relationship in the html document. Descendent selectors makes our selector more specific.
+In the following example notice span element is nested inside header element. This means span element is descendent of the header element.
+To select the descended element we will need to use two or more selectors seperated by white space.
+
+```
+  html file
+
+  <header id="top" class="main-header">
+    <span>Journey through the Sierra Nevada Mountains</span>
+    <h1>Lake Tahoe, California</h1>
+  </header>
 
 
+  css file
+...
+  header span {
+   color: white;
+   font-size: 26px;
+}
+...
+
+```
+Descendent selectors are not limited to the type selectors only. We can be pretty specific with class and id selectors.
+
+```
+for the same example above the header element can be swaped with the class
+
+in css
+
+.main-header {
+  background-color: orange;
+}
+
+.main-header span{
+  color: white;
+  font-size: 26px;
+}
+
+```
 
 
 
