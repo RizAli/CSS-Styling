@@ -8,7 +8,14 @@ body {
   background-color: orange;
 }
 
-header span {
+ol li {
+  background-color: tomato;
+  color: white;
+  margin-bottom: 5px;
+
+}
+
+.title {
   color: white;
   font-weight: 26px;
 }

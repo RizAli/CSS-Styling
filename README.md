@@ -210,7 +210,7 @@ Descendent selectors are not limited to the type selectors only. We can be prett
 ```
 for the same example above the header element can be swaped with the class
 
-in css
+in css file
 
 .main-header {
   background-color: orange;
@@ -219,6 +219,19 @@ in css
 .main-header span{
   color: white;
   font-size: 26px;
+}
+
+```
+
+Pseudo Classes:
+--------------
+Pseudo-classes are similar to classes. But they are not explicitly defined in an elements class attribute. Unlike type, ID and class selectors, pseudo-classes can target elements dynamically based on user interaction, an element state or more. for example visited link
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+```
+selector:pseudo-class {
+  property: value;
 }
 
 ```
