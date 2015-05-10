@@ -347,7 +347,12 @@ a:link {
 
 ```
 
-
+Text and css
+------------
+css has several properties for defining text.
+```
+source: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+```
 
 
 
