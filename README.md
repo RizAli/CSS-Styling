@@ -265,6 +265,39 @@ a:focus{
 
 ```
 
+CSS Data Types
+---------------:
+Mozilla Developer Network
+resource: https://developer.mozilla.org/en-US/docs/tag/CSS%20Data%20Type
+
+
+CSS datatypes simply means a type of CSS value
+Example:
+Color values, integers, numbers, percentages etc.
+Images, gradient, uri datatype
+
+
+
+CSS px is an Angular Measurement
+----------------------------------
+
+css pixels units in css doesn't have anything to do with screen pixels. The pixel in css is more about pixel density of the viewing device.
+It is actually a non-linear angular measurement. To read more click link: http://inamidst.com/stuff/notes/csspx
+
+css percentage unit are commonly used since they allow fluid sizing of elements relative to their container.
+
+```
+https://developer.mozilla.org/en-US/docs/tag/CSS%20Data%20Type
+
+resource: https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
+```
+
+
+
+
+
+
+
 
 
 

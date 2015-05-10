@@ -2,6 +2,7 @@
 body {
   color: #878787;
   margin: 0px;
+  font-size: 150%;
 }
 
 h1 {
@@ -34,13 +35,17 @@ h3 {
   font-weight: 26px;
 }
 
+.primary-content,
+.secondary-content {
+  width: 60%;
+}
+
 .primary-content {
   text-align: center;
 }
 
 .t-border {
   border-top: 2px solid lightgrey;
-
 }
 
 a:link {
