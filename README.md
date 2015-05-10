@@ -323,10 +323,29 @@ h1 {
 
 ```
 
+Colors in CSS
+--------------
 
+colors in css can be defined as keywords, hexadecimal value and RGB values.
 
+resource: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 
+Hex values are defined by # sign followed by six hexadecimal characters.
 
+```
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px #ffa949;
+}
+
+to define as rgb
+
+a:link {
+  color: rgb(255,169,73)
+}
+
+```
 
 
 
