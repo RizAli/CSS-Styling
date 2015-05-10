@@ -354,5 +354,23 @@ css has several properties for defining text.
 source: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 ```
 
+Font Family
+-----------
+It is always good to use web safe font as they are installed in any computer.
+font stack can be defined, browsers goes through all the fonts and checks if the end user has the font installed.
+```
+source: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
+http://www.cssfontstack.com/
+
+
+body {
+  color: #878787;
+  margin: 0px;
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;  /* Font stack defined */
+}
+
+
+```
 
 
