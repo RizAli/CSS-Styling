@@ -2,11 +2,11 @@
 body {
   color: #878787;
   margin: 0px;
-  font-size: 150%;
+  font-size: 1em;
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 5.625em; /*  90px / 16px */
   color: white;
 }
 
@@ -28,11 +28,13 @@ h3 {
 
 .main-header {
   background-color: orange;
+  font-size: 1em;
 }
 
 .title {
   color: white;
   font-weight: 26px;
+  font-size: 26px;
 }
 
 .primary-content,

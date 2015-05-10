@@ -291,7 +291,37 @@ https://developer.mozilla.org/en-US/docs/tag/CSS%20Data%20Type
 
 resource: https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
 ```
+### Relative Length Units:
+The Default font size for many browsers is 16px.
+1em value is equal to the font size value of the parent element.
 
+```
+https://developer.mozilla.org/en/docs/Web/CSS/length#Relative_length_units
+
+
+body {
+  font-size: 1em;
+}
+
+this is same as
+
+body {
+  font-size: 16px;
+}
+
+```
+
+### Conversion of Pixel value to em value. We can use a simple formulae
+
+em sizes are very useful because it can adapt the other font sizes. This way child elements are able to resize proportinally based on the parent font size.
+
+```
+h1 {
+  font-size: 5.625em; /*  90px / 16px */
+  color: white;
+}
+
+```
 
 
 
