@@ -374,7 +374,19 @@ body {
 
 CSS line Height
 ---------------
+Line height defines the vertical spacing of the paragraphs. We can increase or decrease the line height.
 
+
+The box Model
+--------------
+
+The box model defines the amount of space each element takes upon the page.
+
+
+content area
+padding area -
+border area - the outer most part of the box
+margin area - margin area exits out side the box
 
 
 
