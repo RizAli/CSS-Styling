@@ -179,7 +179,13 @@ margin: 105px 0 60px 0;
 ```
 
 
+Display Values:
+----------------
+With the display property, we can override the default display settings of an element.
 
+```
+display: none;
+```
 
 
 
