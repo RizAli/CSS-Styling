@@ -372,8 +372,157 @@ body {
 
 ```
 
-CSS line Height
----------------
+he CSS Box Model:
+------------------
+
+The box model is what describes the amout of space each element takes up on the page.
+Each element is made up of box. Every element has a display value depending on what type of element it is.
+
+The default for most of the element is block or inline.
+example of block elements are div, p, heading tags or list items. The block elemets take the seperate block that takes full lenght available. And it creates new line before and after the element.
+
+The inline elements takes only space that is needed not the entire block.
+
+The box in the box model is made up of four distinct parts.
+the content area = The inner most box.
+The padding area = This gives some breathing room to content.
+The border = this is the outer most part of the box.
+The margin area = This exist out side the box, this seperates form other elements.
+
+
+
+Padding values
+--------------
+padding values can be defined in two different ways.
+
+```
+Method 1:
+--------
+padding-top: 100px;
+padding-right: 120px;
+padding-bottom: 100px;
+padding-left: 120px;
+
+Method 2:
+---------
+oneliner
+
+adding: 100px 120px 100px 120px;
+
+how does it work:
+
+padding: 100px;  if one value is given the padding applies to all 4 sides.
+padding: 100px 120px; whereas if two values are given first applies to the top and bottom side of the element.
+and the second value is applied to left and right side of the value
+
+padding: 100px 120px 100px;   Third value applies to bottom side only.
+padding: 100px 120px 100px 120px;   The fourth value applies to the left side
+
+Top right bottom left (clockwise)x
+
+```
+Defining fluid padding value using percentages.
+-----------------------------------------------
+
+The percentage is relative to the total width of the container not the height
+```
+ padding: 18% 24%;
+```
+
+Border Area:
+------------
+```
+border-width
+
+border-width: 5px 10px;
+border-style: solid dotted;
+border-color: red #ffa949 blue green;
+
+Shorthand method
+
+ border: 10px solid #ffa949 ;
+```
+
+Margin properties:
+------------------
+```
+Method 1:
+
+margin-top: 105px;
+margin-rgith: 0px;
+margin-bottom: 60px;
+margin-left: 0px;
+
+Shorthand method:
+margin: 105px 0 60px 0;
+
+```
+
+
+Display Values:
+----------------
+With the display property, we can override the default display settings of an element.
+
+```
+display: none;
+```
+
+Background Image
+----------------
+Every HTML element has a background layer that is transparent by default.
+
+
+```
+.main-header {
+  background-color: #ffa949;
+  padding-top: 170px;
+  height: 850px;
+  background-image: url('../img/mountains.jpg');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-size:
+}
+```
+
+### Background size and position:
+
+There are certain properties that affect the size and position of an elements background.
+
+```
+
+.main-header {
+  background-color: #ffa949;
+  padding-top: 170px;
+  height: 850px;
+  background-image: url('../img/mountains.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+refactored version
+
+
+  .main-header {
+  padding-top: 170px;
+  height: 850px;
+
+  background: #ffa949 url('../img/mountains.jpg') no-repeat center;
+  background-size: cover;
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
