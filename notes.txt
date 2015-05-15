@@ -187,5 +187,58 @@ With the display property, we can override the default display settings of an el
 display: none;
 ```
 
+Background Image
+----------------
+Every HTML element has a background layer that is transparent by default.
+
+
+```
+.main-header {
+  background-color: #ffa949;
+  padding-top: 170px;
+  height: 850px;
+  background-image: url('../img/mountains.jpg');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-size:
+}
+```
+
+### Background size and position:
+
+There are certain properties that affect the size and position of an elements background.
+
+```
+
+.main-header {
+  background-color: #ffa949;
+  padding-top: 170px;
+  height: 850px;
+  background-image: url('../img/mountains.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+refactored version
+
+
+  .main-header {
+  padding-top: 170px;
+  height: 850px;
+
+  background: #ffa949 url('../img/mountains.jpg') no-repeat center;
+  background-size: cover;
+
+```
+
+
+
+
+
+
+
+
+
 
 
