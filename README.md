@@ -674,6 +674,45 @@ Adding color stops
 
 Overlay:
 ---------
+Multiple backgrounds are layered according to order of values, the first value being the top first layer.
+
+```
+  background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+               #ffa949 url('../img/mountains.jpg') no-repeat center;
+```
+
+
+Fonts:
+------
+source: http://www.fontsquirrel.com/
+
+
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.eot');
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
+
+```
+  background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+               #ffa949 url('../img/mountains.jpg') no-repeat center;
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
