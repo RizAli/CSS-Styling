@@ -641,21 +641,39 @@ h1 {
 ```
 
 
-Border Radius:
----------------
 
 
+Background gradient:
+--------------------
+```
+background-image: linear-gradient(#ffa949, firebrick);
+background-image: linear-gradient(to top, #ffa949, firebrick);
+background-image: linear-gradient(to left, #ffa949, firebrick);
+
+background-image: linear-gradient(0deg, #ffa949, firebrick);
+background-image: linear-gradient(90deg, #ffa949, firebrick);
+
+background-image: radial-gradient(#ffa949, firebrick);
+
+background-image: radial-gradient(circle, #ffa949, firebrick);
+
+background-image: radial-gradient(circle at top, #ffa949, firebrick);
+```
 
 
+Gradients Color Stops:
+---------------------
 
+Adding color stops
 
+```
+  background-image: radial-gradient(circle at top right, #ffa949, firebrick, dodgerblue);
 
+  background-image: radial-gradient(circle at top right, #ffa949 0%, firebrick 20%, dodgerblue 100%);
+```
 
-
-
-
-
-
+Overlay:
+---------
 
 
 

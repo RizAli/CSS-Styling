@@ -83,8 +83,11 @@ a:active {
   background-repeat: no-repeat;
   background-position: center;*/
 
-  background: #ffa949 url('../img/mountains.jpg') no-repeat center;
+  background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+               #ffa949 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
+
 }
 
 .title {
