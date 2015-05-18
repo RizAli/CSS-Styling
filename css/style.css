@@ -38,6 +38,19 @@ img {
   margin-bottom: 20px;
 }
 
+ul,
+ol {
+/*  list-style-position: inside;*/
+
+  margin-left: 0;
+  margin: 0px, 30px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
 /* Pseudo-classes ------------------ */
 
 a:link {
@@ -97,6 +110,7 @@ a:active {
   padding-top: 80px;
   padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
+
 }
 
 .callout {
@@ -154,14 +168,18 @@ a:active {
 }
 
 .tips {
-  float: right;
-}
-
-.resorts {
   float: left;
 }
 
+.resorts {
+  float: right;
+}
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
