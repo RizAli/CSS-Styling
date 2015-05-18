@@ -514,9 +514,26 @@ refactored version
 
 Floats:
 -------
+Commonly used methods for laying out the page with css.
 
 
+```
+/* Floated Columns ------------------ */
 
+.resorts,
+.tips {
+  width: 46.5%;
+}
+
+.tips {
+  float: right;
+}
+
+.resorts {
+  float: left;
+}
+
+```
 
 
 
