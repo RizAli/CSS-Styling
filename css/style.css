@@ -1,7 +1,7 @@
 /* Base Styles -------------------- */
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -35,6 +35,7 @@ h3 {
 
 img {
   max-width: 100%;
+  margin-bottom: 20px;
 }
 
 /* Pseudo-classes ------------------ */
@@ -59,8 +60,10 @@ a:active {
 /* Main Styles --------------------- */
 
 .main-header {
+  background-color: #ffa949;
   padding-top: 170px;
   height: 850px;
+
 }
 
 .title {
@@ -127,7 +130,10 @@ a:active {
   margin: 105px 0 60px;
 }
 
-.arrow {
-  width: 50px;
+.arrow{
+  width:50px;
 }
+
+
+
 
