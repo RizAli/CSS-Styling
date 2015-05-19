@@ -705,11 +705,41 @@ source: http://www.fontsquirrel.com/
 
 
 
+Media Queries:
+--------------
 
 
+Media query allows us to enhance the browsing experience of websites on multiple devices and viewport sizes. This allows us to tailer our content to a wide range of devices without having to change anything in the HTML.
+
+ref: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries#Media_features
 
 
+```
+/* Media Queries  ------------------ */
 
+
+@media (max-width: 960px) {
+  body {
+    background: royalblue;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background: darkred;
+  }
+}
+
+@media (max-width: 481px) and (max-width: 700px) {
+  body {
+    background: seagreen;
+  }
+  p {
+    color: white;
+    }
+}
+
+```
 
 
 
