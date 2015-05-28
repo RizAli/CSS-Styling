@@ -741,7 +741,20 @@ ref: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries#Media_
 
 ```
 
+To handle the view port on the mobile devices
+```
+in the head tag include
+<meta name="viewport" content="width=device-width">
+```
 
+Cascading Style Sheet:
+-----------------------
+Style sheets are the document that we use to write css.
+What is Cascading:
+How the rules are applied to the browser is called cascading
+In css cascade determines which styles are assigned to an element.
+
+The Cascade follows 3 main steps to determine which properties get assigned to an element.
 
 
 

@@ -220,6 +220,10 @@ a:active {
   .secondary-content {
     width: 90%
   }
+  .wildlife {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -227,7 +231,7 @@ a:active {
   .secondary-content {
     width: 100%;
     padding: 20px;
-    border: none;
+    border-top: none;
   }
   .main-header {
     max-height: 380px;
@@ -244,6 +248,22 @@ a:active {
   .arrow {
     display: none;
   }
+
+  .intro {
+    font-size: 1em; {
+    }
+  }
+  .resorts,
+  .tips {
+    float: none;
+    width: 100%;{
+    }
+  }
+.main-footer {
+  padding: 20px 0;
+}
+
+
 
 }
 
